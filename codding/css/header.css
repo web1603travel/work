@@ -1,6 +1,21 @@
 /* header.css */
-
+#h_menu>ul li.lastbox{margin-right: 0;}
 
 /* ------------------------- #header --------------------------------------- */
-
+    #header{width: 100%; height: 148px; background-color:#cad;}
+    #header>div{width: 900px; margin: 0 auto; padding: 0 40px;}
+        #h_top{width: 100%; height: 60px; background-color: #ddd;}
+        #h_menu{width: 100%; height: 36px; background-color: #9ad;}
+            #h_menu>#h_menu_left{width: 218px; height: 16px; background-color: #a0d; float: left; padding:10px 0;}
+#h_menu_left>li{width: 66px; height: 16px; float: left; margin-right: 10px; background-color: #fff;}
+                .h_menu01{}
+                .h_menu02{}
+                .h_menu03{}
+            #h_menu>#h_menu_right{width: 294px; height: 16px; background-color: #a0d;float: right; padding:10px 0;}
+#h_menu_right>li{width: 66px; height: 16px; float: left; margin-right: 10px; background-color: #fff;}
+                .h_menu04{}
+                .h_menu05{}
+                .h_menu06{}
+                .h_menu07{}
+        #gnb{width: 100%; height: 52px; background-color: #adc; float: left;}
 
