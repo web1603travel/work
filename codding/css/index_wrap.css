@@ -1,0 +1,8 @@
+/* index_wrap.css */
+
+#wrap{width: 100%; height: auto;}
+#wrap>div{margin: 0 auto;}
+    #header{width: 980px; height: px;}
+    #banner{width: 100%;}
+    #article{width: 980px; height: px;}
+    #footer{width: 980px; height: px;}
