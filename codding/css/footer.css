@@ -2,16 +2,19 @@
 #ftmenu>ul li.lastbox{margin-right: 0;}
 
 /*---------------footer-----------------*/
-#wrap>#footer{width: 100%; height: 196px; border-top: 1px solid #e8e8e8;background-color: #0ac;}
-#ftmenu{width: 980px; height: 16px; padding: 1px 1px 1px; margin: 0 auto; background-color: #fff; overflow: hidden;}
-#ftmenu>li{width: 12%; height: 16px; float: left; margin-right: 15px; background-color: #fcf; overflow: hidden; background-image: url(../img/footer/footer_menu.jpg);}
-.ftmenu_01{background-position: -8px 70PX;}
-.ftmenu_02{background-position: -77px 1PX;}
-.ftmenu_03{background-position: -173px 1PX;}
-.ftmenu_04{background-position: -249px 1PX;}
-.ftmenu_05{background-position: -324px 1PX;}
-.ftmenu_06{background-position: -434px 1PX;}
-.ftmenu_07lastbox{ margin-left: auto; background-position: -510px 1PX;}
+#wrap>#footer{width: 100%; height: 196px; border-top: 1px solid #e8e8e8;}
+#ftWrap{width: 900px; height: 100%; padding: 0 40px; margin: 0 auto;}
+
+
+#ftmenu{width: 896px; height: 16px; padding: 10px 2px; background-color: #fff;}
+    #ftmenu>li{width: 104px; height: 100%; float: left; margin-right: 15px; background-color: #fcf; background-image: url(../img/footer/footer_menu.jpg);}
+    .ftmenu_01{background-position: -8px 70PX;}
+    .ftmenu_02{background-position: -77px 1PX;}
+    .ftmenu_03{background-position: -173px 1PX;}
+    .ftmenu_04{background-position: -249px 1PX;}
+    .ftmenu_05{background-position: -324px 1PX;}
+    .ftmenu_06{background-position: -434px 1PX;}
+    .ftmenu_07{background-position: -510px 1PX;}/* 오른쪽에 붙어야됨~~~~~ */
 
 #ft_footer{width: 980px; height: 180px; padding: 1px 1px 1px; margin: 0 auto; background-color: #fff; overflow: hidden;}
 #ft_footer>li{width: 490px;height: 100%; background-repeat: no-repeat; background-position: center; float: right;}
