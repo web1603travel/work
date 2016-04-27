@@ -1,4 +1,4 @@
 /* banner.css */
 
 /* ------------------------- #banner --------------------------------------- */
-#banner{width: 100%; height: 440px;background-image: url(../img/banner/banner_1.jpg);}
+#banner{width: 100%; height: 440px;background-image: url(../img/banner/banner_1.jpg); background-size:100%; background-repeat: no-repeat;}
