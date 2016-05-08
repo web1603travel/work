@@ -6,7 +6,7 @@
 padding: 0;
 border: 0;
 color: #333;
-font:100% /1.2 "myriad pro", arial, nanumGothic, dotum, sans-serif;}
+font:100% /1.2 "myriad pro", arial, "noto sans cjk kr", dotum, sans-serif;}
 h1, h2, h3, h4, h5, h6{font-weight: bold;}
 ul,ol,li{list-style: none;}
 table,th,td,tr{border: 1px solid; border-spacing: 0; border-collapse:collapse;}
