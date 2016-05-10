@@ -2,22 +2,23 @@
 
 /*---------------footer-----------------*/
 
-#ftWrap{width: 960px; height: 200px; background-color: #fff; margin: 0 auto;}
-#ftmenu{width: 100%; height: 40px;background-color: #000;float: left;}
-#ftmenu>ul{}
-#ftmenu>ul>li{}
+#footer{width: 960px; height: 200px; background-color: #fff;}
 
-ftmenu_01
-ftmenu_02
-ftmenu_03
-ftmenu_04
-ftmenu_05
-ftmenu_06
-ftmenu_07 lastbox
+#ftWrap{width: 960px; height: 36px; background-color: #ccc; float: left; margin: 0 auto;}
+#ftWrap> ul{float: left; padding-top: 10px; padding-left: 12px; padding-bottom: 10px;}
+#ft_menu >li{width: 110px; height: 17px; float: left; margin-left: 20px; font-size: 14px; color:#fff;}
+.ftmenu_01{}
+.ftmenu_02{}
+.ftmenu_03{}
+.ftmenu_04{}
+.ftmenu_05{width: 150px;}
+.ftmenu_06{}
+.ftmenu_07lastbox{float: right;}
 
-#ft_footer{ w}
-#ft_footer > ul 
-#ft_footer > ul > li
 
-ft_add
-ft_logo
+#ft_footer{width: 950px; height: 160px; float: left;}
+#ft_footer>.ft_add{width: 792px;height: 106px;float: right; background-image: url(../img/footer/footer_m.jpg);background-repeat: no-repeat; }
+#ft_footer>.ft_logo{ width: 150px; height: 120px;background-image: url(../img/footer/footer_Logo.jpg); background-repeat: no-repeat; margin-top: 30px;}
+#ft_footer>.ft_logo:hover{cursor: pointer;}
+#ft_footer>ul{padding-top: 90px;}
+#ft_footer>ul>li{ padding-top: 50px;}
