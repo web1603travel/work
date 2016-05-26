@@ -115,24 +115,6 @@
         color: #fff;
         margin-right: 2px; }
 
-  #gnbmenu {
-    width: 790px;
-    height: 100%;
-    float: right;
-    margin: 0 auto;
-    padding-top: 20px; }
-    #gnbmenu > ul {
-      width: 100%;
-      height: 100%; }
-    #gnbmenu > ul > li {
-      width: 150px;
-      height: 100%;
-      float: left; }
-
-  #gnbmenu_menu {
-    width: 100%;
-    height: 100%; }
-
   /* ------------------------- #banner --------------------------------------- */
   #banner {
     width: 100%;
@@ -198,7 +180,7 @@
         height: 100%;
         margin-right: 47px;
         float: left;
-        background-image: url(../../img/banner/banner_2.jpg);
+        background-image: url(../img/banner/banner_2.jpg);
         border-radius: 50%; }
         #bannerListWrap > ul > li > a {
           width: 100%;
@@ -271,7 +253,7 @@
         float: left;
         background-color: #fff; }
         #article_01 > ul > li.art_left {
-          width: 598px;
+          width: 588px;
           margin-right: 18px;
           overflow: hidden; }
         #article_01 > ul > li.art_right {
