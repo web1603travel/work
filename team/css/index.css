@@ -141,6 +141,18 @@ header, section {
         display: block;
         line-height: 3.25rem;
         text-align: center; }
+      #gnbWrap > ul > li:hover > ul {
+        width: 10%;
+        height: 100%;
+        line-height: 3.25rem;
+        text-align: center;
+        margin: 0 auto;
+        position: absolute;
+        z-index: 600;
+        transition: all 0.5s; }
+        #gnbWrap > ul > li:hover > ul > li {
+          width: 100%;
+          float: 0; }
     #gnbWrap > ul > .menu_01 {
       width: 109px; }
     #gnbWrap > ul > .menu_02 {
@@ -297,7 +309,7 @@ header, section {
         float: left;
         background-color: #fff; }
         #article_01 > ul > li.art_left {
-          width: 588px;
+          width: 598px;
           margin-right: 18px;
           overflow: hidden; }
         #article_01 > ul > li.art_right {
@@ -305,11 +317,13 @@ header, section {
           overflow: hidden; }
 
   ul > li.art_left > a {
-    background-image: url(../../img/article/art_left.gif); }
+    background-image: url(../img/article/art_left.gif);
+    background-size: 100%; }
   ul > li.art_left > a:hover {
     transform: scale(1.1); }
   ul > li.art_right > a {
-    background-image: url(../../img/article/art_right.gif); }
+    background-image: url(../img/article/art_right.gif);
+    background-size: 120%; }
   ul > li.art_right > a:hover {
     transform: scale(1.1); }
 
